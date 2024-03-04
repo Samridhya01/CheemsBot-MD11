@@ -246,7 +246,7 @@ XeonLft = await getBuffer(ppuser)
          │                       
          │✑ 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝕭𝖞 : ${ownername}
          │
-         │✑ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: 10.0
+         │✑ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: 11.0
          │
          │✑ 𝕻𝖗𝖊𝖋𝖎𝖝: ${global.xprefix}
          └──────────────────────┈ ⳹`
@@ -288,7 +288,7 @@ XeonBotInc.sendMessage(anu.id,
       │
       │✑ 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝕭𝖞 : ${ownername}
       │
-      │✑ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: 10.0
+      │✑ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: 11.0
       │
       │✑ 𝕻𝖗𝖊𝖋𝖎𝖝: ${global.xprefix}
       └─────────────────────┈ ⳹`
@@ -356,7 +356,7 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
+xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* by @${xeonName.split("@")[1]} 🥳`
    XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -373,7 +373,7 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* 😬`
+xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* by @${xeonName.split("@")[1]} 😬`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{

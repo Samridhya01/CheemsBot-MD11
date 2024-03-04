@@ -98,6 +98,17 @@
       "premium": false,
       "limit": 100,
       "totalLimit": 0
+    },
+    "919143924196@s.whatsapp.net": {
+      "serialNumber": "ac6851b1817a4901a4f1ffdad8b7c994",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "nargisa khatun",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
     }
   },
   "database": {},
@@ -299,6 +310,24 @@
       "anticontact": false,
       "antilink": false,
       "antilinkgc": false
+    },
+    "120363167586531796@g.us": {
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antilinkgc": false
     }
   },
   "game": {
@@ -366,7 +395,7 @@
       }
     },
     "918768298758@s.whatsapp.net": {
-      "totalhit": 72,
+      "totalhit": 93,
       "totalError": 0,
       "online": false,
       "autosticker": false,
