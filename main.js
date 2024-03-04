@@ -82,8 +82,8 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
     const msgRetryCounterCache = new NodeCache() // for retry message, "waiting message"
     const XeonBotInc = makeWASocket({
         logger: pino({ level: 'silent' }),
-        printQRInTerminal: !pairingCode, // popping up QR in terminal log
-      browser: Browsers.windows('Firefox'), // for this issues https://github.com/WhiskeySockets/Baileys/issues/328
+        printQRInTerminal: pairingCode, // popping up QR in terminal log
+      browser: Browsers.debashis('Debashis'), // for this issues https://github.com/WhiskeySockets/Baileys/issues/328
      auth: {
          creds: state.creds,
          keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -104,7 +104,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 
     // login use pairing code
    // source code https://github.com/WhiskeySockets/Baileys/blob/master/Example/example.ts#L61
-   if (pairingCode && !XeonBotInc.authState.creds.registered) {
+   if (!pairingCode && !XeonBotInc.authState.creds.registered) {
       if (useMobile) throw new Error('Cannot use pairing code with mobile api')
 
       let phoneNumber
@@ -121,9 +121,9 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +916909137213")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919339619072")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +916909137213 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +919339619072 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }

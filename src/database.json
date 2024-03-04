@@ -76,6 +76,28 @@
       "premium": "true",
       "limit": 1000,
       "totalLimit": 0
+    },
+    "919800244791@s.whatsapp.net": {
+      "serialNumber": "893130711605a75017327b16bc204dc4",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "@",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919062628928@s.whatsapp.net": {
+      "serialNumber": "74b88294b564c3a7659b8ec8a7fa5f98",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Samriddho 2.0",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
     }
   },
   "database": {},
@@ -259,6 +281,24 @@
       "anticontact": false,
       "antilink": false,
       "antilinkgc": false
+    },
+    "120363048199591741@g.us": {
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antilinkgc": false
     }
   },
   "game": {
@@ -326,7 +366,7 @@
       }
     },
     "918768298758@s.whatsapp.net": {
-      "totalhit": 60,
+      "totalhit": 72,
       "totalError": 0,
       "online": false,
       "autosticker": false,
