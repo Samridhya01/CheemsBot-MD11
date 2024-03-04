@@ -83,7 +83,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
     const XeonBotInc = makeWASocket({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: pairingCode, // popping up QR in terminal log
-      browser: Browsers.debashis('Debashis'), // for this issues https://github.com/WhiskeySockets/Baileys/issues/328
+      browser: Browsers.windows('Debashis'), // for this issues https://github.com/WhiskeySockets/Baileys/issues/328
      auth: {
          creds: state.creds,
          keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
