@@ -36,7 +36,7 @@ global.hituet = 0
 
 //bot sett
 global.typemenu = 'v2' // menu type 'v1' => 'v8'
-global.typereply = 'v3' // reply type 'v1' => 'v3'
+global.typereply = 'v2' // reply type 'v1' => 'v3'
 global.autoblocknumber = '92' //set autoblock country code
 global.antiforeignnumber = '91' //set anti foreign number country code
 global.welcome = true //welcome/left in groups
@@ -49,8 +49,8 @@ global.mess = {
 	limit: 'Your limit is up!',
 	nsfw: 'Nsfw is disabled in this group, Please tell the admin to enable',
     done: 'Done✓',
-    error: 'Error!',
-    success: 'Here you go!'
+    error: 'Ah Fuck, Theres an error in system!',
+    success: 'Here you go! 🥳'
 }
 //thumbnail
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
