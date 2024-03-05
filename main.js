@@ -367,7 +367,7 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": XeonWlcm,
+"thumbnail": ,
 "sourceUrl": `${websitex}`}}})
 } else if (anu.action == 'demote') {
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
@@ -384,7 +384,7 @@ XeonBotInc.sendMessage(anu.id,
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": XeonLft,
+"thumbnail": ,
 "sourceUrl": `${websitex}`}}})
 }
 }
