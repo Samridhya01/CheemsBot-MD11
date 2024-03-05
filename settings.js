@@ -47,7 +47,7 @@ global.groupevent = true //show update messages in group chat
 //msg
 global.mess = {
 	limit: 'Your limit is up!',
-	nsfw: 'Nsfw is disabled in this group, Please tell the admin to enable',
+	nsfw: "গ্রুপে মেয়ে আছে, So don't do this type-এর কুটকুটি",
     done: 'Done✓',
     error: 'Ah Fuck, Theres an error in system!',
     success: 'Here you go! 🥳'
