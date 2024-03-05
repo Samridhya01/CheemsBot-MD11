@@ -356,7 +356,7 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* by @${xeonName.split("@")[1]} 🥳`
+xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
    XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -367,13 +367,13 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": ,
+"thumbnail": XeonWlcm,
 "sourceUrl": `${websitex}`}}})
 } else if (anu.action == 'demote') {
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* by @${xeonName.split("@")[1]}😬`
+xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin*  😬`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -384,7 +384,7 @@ XeonBotInc.sendMessage(anu.id,
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": ,
+"thumbnail": XeonLft,
 "sourceUrl": `${websitex}`}}})
 }
 }
