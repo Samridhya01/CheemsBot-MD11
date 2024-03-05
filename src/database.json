@@ -109,6 +109,17 @@
       "premium": false,
       "limit": 100,
       "totalLimit": 0
+    },
+    "919749837183@s.whatsapp.net": {
+      "serialNumber": "7b5e96174ae7079ce8eb8da047b7bedf",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "~ ATIF😎(N C A A F A A T )",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
     }
   },
   "database": {},
@@ -395,7 +406,7 @@
       }
     },
     "918768298758@s.whatsapp.net": {
-      "totalhit": 93,
+      "totalhit": 94,
       "totalError": 0,
       "online": false,
       "autosticker": false,
